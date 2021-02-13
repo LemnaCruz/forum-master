@@ -24,7 +24,8 @@
         "symfony/framework-bundle": "5.2.*",
         "symfony/proxy-manager-bridge": "5.2.*",
         "symfony/psr-http-message-bridge": "^2.0",
-        "symfony/yaml": "5.2.*"
+        "symfony/yaml": "5.2.*",
+      "ext-http": "*"
     },
     "require-dev": {
         "phpspec/phpspec": "^7.0",

@@ -7,11 +7,10 @@ namespace App\Domain\AnswerManagement;
 use App\Domain\AnswerManagement\Answer\AnswerId;
 use App\Domain\Exception\EntityNotFound;
 
-interface AnswerRepository
+interface AnswersRepository
 {
+
     /**
-     * Adds a answer to the answer repository
-     *
      * @param Answer $answer
      * @return Answer
      */
@@ -40,5 +39,11 @@ interface AnswerRepository
      * @param Answer $answer
      */
     public function remove(Answer $answer): void;
+
+    /**
+     * @param Answer $answer
+     * @return Answer
+     */
+    public function given(Answer $answer): Answer;
 
 }

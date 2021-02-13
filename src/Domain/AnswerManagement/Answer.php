@@ -112,4 +112,14 @@ class Answer implements EventGenerator, JsonSerializable
             "lastEditedOn" => $this->lastEditedOn,
         ];
     }
+
+    public function given($argument1)
+    {
+        // TODO: write logic here
+    }
+
+    public function add($argument1)
+    {
+        // TODO: write logic here
+    }
 }

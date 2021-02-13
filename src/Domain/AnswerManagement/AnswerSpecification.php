@@ -6,7 +6,7 @@ namespace App\Domain\AnswerManagement;
 /**
  * AnswerSpecification
  *
- * @package App\Domain\AnswerManagement
+ * @package App\Domain\CreateAnswerController
  */
 
 interface AnswerSpecification
